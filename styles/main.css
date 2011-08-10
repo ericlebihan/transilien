@@ -16,7 +16,7 @@ body{font-size:12px;font-family:arial, sans-serif;background-color:#eee;color:#5
 p{margin-bottom:20px;font-size:12px;color:#545454;}
 span{font-size:12px;color:#545454;}
 span.asterisk{color:#f85b00 !important;}
-input{border:1px solid #dcdcdc;height:28px;}
+input{border:1px solid #dcdcdc;height:28px;margin-bottom:3px;}
 .input-submit{height:30px;background-color:#fff;font-weight:bold;font-size:16px;color:#545454;cursor:pointer;}
 .input-submit:hover{background-color:#f0f0f0;}
 .input-submit:active{background-color:#cbc9c9;text-shadow:1px 1px 2px #fff;filter:dropshadow(color=#fff, offx=1, offy=1);}
@@ -74,7 +74,7 @@ td, td a{font-size:12px;color:#323232;}
 
 .box-main form#recherche-gare label{display:block;margin-bottom:20px;font-weight:bold;font-size:16px;color:#545454;}
 .box-main form#recherche-gare input{display:inline-block;vertical-align:middle;margin-right:20px;}
-.box-main form#recherche-gare .input-text{width:270px;font-size:12px;color:#545454;margin-bottom:3px;}
+.box-main form#recherche-gare .input-text{width:270px;font-size:12px;color:#545454;}
 .box-main form#recherche-gare .input-submit{width:90px;}
 
 .fiche .box-main{padding:20px 0;}
