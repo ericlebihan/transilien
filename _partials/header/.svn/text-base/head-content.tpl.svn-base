@@ -1,0 +1,11 @@
+	<title>Europ car - Idea station</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="shortcut icon" href="<URL_PATH>/styles/favicon/favicon.ico" />
+	<link rel="icon" type="image/x-icon" href="<URL_PATH>/styles/favicon/favicon.ico" />
+	<link rel="icon" type="image/png" href="<URL_PATH>/styles/favicon/favicon.png" />
+	<link rel="stylesheet" href="<URL_PATH>/styles/main.css" media="screen, projection" />
+	<link rel="stylesheet" href="<URL_PATH>/styles/fonts.css" media="screen, projection" />
+	<!--<link rel="stylesheet" href="<URL_PATH>/styles/print.css" media="print" />-->
+	<!-- styles additionnels -->
+	<EXTRA_STYLES>
+	<!-- /styles additionnels -->
