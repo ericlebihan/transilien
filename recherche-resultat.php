@@ -43,7 +43,7 @@
 					<td><img src="images/rere.png" width="50" height="23" alt="Rer E" /></td>
 					<td><a href="consultation.php#search-modal-container" class="nyroModal">Consulter</a></td>
 					<td><a href="prehome-popup.php#search-modal-container" class="nyroModal">Télécharger</a></td>
-					<td><a href="abonnement.php#search-modal-container" class="nyroModal">S'abonner</a></td>
+					<td><a href="abonnement.php#search-modal-container" class="nyroModal abonnement-modal">S'abonner</a></td>
 				</tr>
 				<tr class="even">
 					<td class="trajet">Haussmann St Lazare - Tournan</td>
@@ -51,7 +51,7 @@
 					<td><img src="images/rere.png" width="" height="" alt="Rer E" /></td>
 					<td><a href="link">Consulter</a></td>
 					<td><a href="link">Télécharger</a></td>
-					<td><a href="abonnement.php#search-modal-container" class="nyroModal">S'abonner</a></td>
+					<td><a href="abonnement.php#search-modal-container" class="nyroModal abonnement-modal">S'abonner</a></td>
 				</tr>
 				<tr class="odd">
 					<td class="trajet">Haussmann St Lazare - Villiers sur Marne / Le Plessis Trévise</td>
@@ -59,7 +59,7 @@
 					<td><img src="images/rere.png" width="50" height="23" alt="Rer E" /></td>
 					<td><a href="consultation.php#search-modal-container" class="nyroModal">Consulter</a></td>
 					<td><a href="link">Télécharger</a></td>
-					<td><a href="abonnement.php#search-modal-container" class="nyroModal">S'abonner</a></td>
+					<td><a href="abonnement.php#search-modal-container" class="nyroModal abonnement-modal">S'abonner</a></td>
 				</tr>
 				<tr class="even">
 					<td class="trajet">Haussmann St Lazare - Villiers sur Marne / Le Plessis Trévise</td>
@@ -67,7 +67,7 @@
 					<td><img src="images/rere.png" width="50" height="23" alt="Rer E" /></td>
 					<td><a href="consultation.php#search-modal-container" class="nyroModal">Consulter</a></td>
 					<td><a href="link">Télécharger</a></td>
-					<td><a href="abonnement.php#search-modal-container" class="nyroModal">S'abonner</a></td>
+					<td><a href="abonnement.php#search-modal-container" class="nyroModal abonnement-modal">S'abonner</a></td>
 				</tr>
 				<tr class="odd">
 					<td class="trajet">Haussmann St Lazare / Paris Est - Chelles Gournay</td>
@@ -75,7 +75,7 @@
 					<td><img src="images/rere.png" width="50" height="23" alt="Rer E" /></td>
 					<td><a href="consultation.php#search-modal-container" class="nyroModal"></td>
 					<td><a href="link">Télécharger</a></td>
-					<td><a href="abonnement.php#search-modal-container" class="nyroModal">S'abonner</a></td>
+					<td><a href="abonnement.php#search-modal-container" class="nyroModal abonnement-modal">S'abonner</a></td>
 				</tr>
 				<tr class="even">
 					<td class="trajet">Haussmann St Lazare / Paris Est - Chelles Gournay</td>
@@ -83,7 +83,7 @@
 					<td><img src="images/rere.png" width="50" height="23" alt="Rer E" /></td>
 					<td><a href="consultation.php#search-modal-container" class="nyroModal"></td>
 					<td><a href="link">Télécharger</a></td>
-					<td><a href="abonnement.php#search-modal-container" class="nyroModal">S'abonner</a></td>
+					<td><a href="abonnement.php#search-modal-container" class="nyroModal abonnement-modal">S'abonner</a></td>
 				</tr>
 				<tr class="odd">
 					<td class="trajet">Haussmann St Lazare - Cergy le Haut</td>
@@ -91,7 +91,7 @@
 					<td><img src="images/rere.png" width="50" height="23" alt="Rer E" /></td>
 					<td><a href="consultation.php#search-modal-container" class="nyroModal"></td>
 					<td><a href="link">Télécharger</a></td>
-					<td><a href="abonnement.php#search-modal-container" class="nyroModal">S'abonner</a></td>
+					<td><a href="abonnement.php#search-modal-container" class="nyroModal abonnement-modal">S'abonner</a></td>
 				</tr>
 			</table>
 			<p class="footnote">Pour visualiser les fiches PDF, vous devez disposer du logiciel Adobe Acrobat reader. Si vous ne l’avez pas, <a href="link">Téléchargez-ici</a></p>
@@ -101,6 +101,7 @@
 	/* $page->addJs('http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js');
 	$page->addJs('scripts/jquery-ui-1.8.14.custom.min.js'); */
 	/*$page->addJs('scripts/jquery.nyroModal.custom.js');*/
+	$page->addJs('scripts/autoclear.js');
 ?>
 <script src="scripts/jquery.nyroModal.custom.js"></script>
 <!--[if IE 6]>

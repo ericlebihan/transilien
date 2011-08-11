@@ -18,6 +18,7 @@
 				<form>
 					<input type="text" class="autoclear input-text" value="indiquez votre email" />
 					<input type="submit" value="OK" class="input-submit"/><br />
+					<script>$('#search-modal .autoclear').autoClear();</script>
 				</form>
 			</div>
 			</div>

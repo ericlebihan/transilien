@@ -2,10 +2,15 @@
 	/***** EqualizeHeight *****/
 	$.fn.equalizeHeight = function () {
 		var maxHeight = 0;
-		return this.each(function () {
+		this.each(function () {
 				if ($(this).height() > maxHeight) {
 						maxHeight = $(this).height();
 				}
-		}).css({"min-height":maxHeight,"height":"auto"});
+		});
+		var css = {"min-height":maxHeight,"height":"auto"};
+		if ($.browser.msie && $.browser.version <= 6 ) {
+			css = {"height" : maxHeight}
+		}
+		return this.css(css);
 	};
 })(jQuery);
